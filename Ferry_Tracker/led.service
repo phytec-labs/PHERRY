@@ -1,0 +1,14 @@
+[Unit]
+Description=LED Ferry Service
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+RemainAfterExit=yes
+User=root
+ExecStart=/usr/bin/python3 /home/root/led.py
+
+[Install]
+WantedBy=multi-user.target
