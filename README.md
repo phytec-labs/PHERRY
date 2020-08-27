@@ -9,9 +9,13 @@ Contains all files needed to start the PHERRY program from boot, enable WiFi fro
 In order to have the code function you will need to install the following onto your system:
 
 sys
+
 requests
-urllib.reques
+
+urllib.request
+
 math
+
 time
 
 
