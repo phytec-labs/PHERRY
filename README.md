@@ -21,4 +21,6 @@ time
 
 See full project here: https://www.hackster.io/phyterns/pherry-tracker-never-be-late-again-7e692e
 
+We used Qt Creator's Open Source LGPL to display graphics on LCD. https://doc.qt.io/archives/qt-5.13/lgpl.html
+
 
